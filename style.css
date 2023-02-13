@@ -7,6 +7,9 @@
 ul {
     list-style: none;
 }
+li {
+    list-style: none;
+}
 a {
     text-decoration: none;
  }
@@ -50,12 +53,17 @@ nav ul li:nth-child(3) input {
     padding: 12px 0;
     width: auto;
 }
-.menu-bar ul {
+.menu-bar ul {  
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-header {
-    max-width: auto;
+/*----------Slider------*/
+.slider-container{
+    display: flex;
+    justify-content:space-between;
+    width: 600px;
+    height: 180px;  
+   
 }
+/*----------icon-------*/
