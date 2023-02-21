@@ -66,4 +66,36 @@ nav ul li:nth-child(3) input {
     height: 180px;  
    
 }
-/*----------icon-------*/
+/*----------Slider-product-1-------*/
+.slider-product-one-content{
+    background-color: #ff0000;
+    padding: 15px;
+}
+.slider-product-one-content-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.slider-product-one-content-item {
+    width: 19%;
+    background-color: #fff;
+    padding: 50px 12px 50px;
+    border-radius: 5px;
+}
+.slider-product-one-content-item img {
+    width: 100%;
+}
+.slider-product-one-content-item-text {
+    padding-top: 20px;
+}
+.slider-product-one-content-item-text li {
+    margin-bottom: 6px;
+
+}
+.slider-product-one-content-item-text li:nth-child(3) {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+
+
+
